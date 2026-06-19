@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(202, 208, 212);
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+}
+
+.item {
+    background-color: rgb(226, 120, 120);
+    border-radius: 8px;
+    padding: 16px;
+}
+
+img {
+    Width: 100%;
+    height: auto;
+
+}
